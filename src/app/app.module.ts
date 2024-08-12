@@ -17,7 +17,6 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     CounterModule,
-    AppRoutingModule,
     HeroesModule,
   ],
   providers: [],
