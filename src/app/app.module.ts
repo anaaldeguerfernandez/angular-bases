@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 // Después librerías de terceros.
 import { CounterModule } from './counter/counter.module';
+import { DbzModule } from './dbz/dbz.module';
 import { HeroesModule } from './heroes/heroes.module'
 
 // Por último nuestro código.
@@ -17,6 +18,7 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     CounterModule,
+    DbzModule,
     HeroesModule,
   ],
   providers: [],
